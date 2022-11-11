@@ -1,5 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar por pantalla en la misma línea
- * y con una misma sentencia de Java todos las variables de tipo char y de tipo String que hayamos declarado*/
+/**
+ * Mostrar por pantalla en la misma línea y con una misma sentencia de Java todos las variables de tipo char y de tipo String que hayamos declarado.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class CharString{
 	public static void main(String args[]){
