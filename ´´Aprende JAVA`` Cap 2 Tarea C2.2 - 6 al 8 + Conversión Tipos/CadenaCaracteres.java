@@ -6,7 +6,7 @@
 
 public class CadenaCaracteres{
 	public static void main(String args[]){
-		
+	
 		char pMayus = 'P', r = 'r', o = 'o', g = 'g', a = 'a', m = 'm', c = 'c', i = 'i', ó = 'ó', n = 'n';
 		String asignatura = pMayus + "" +  r + "" + o + "" + g + "" + r + "" + a + "" + m + "" + a + "" + c + "" + i + "" + ó + "" + n;
 		
