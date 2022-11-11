@@ -30,6 +30,5 @@ public class Casting{
 		System.out.println("El resultado de la división es " + división);
 		System.out.println("Como acabamos de comprobar, si no hacemos casting a ninguno de los valores, el resultado sale en decimal pero con la parte decimal nula.");
 		System.out.println("");
-		
 	}
 }
