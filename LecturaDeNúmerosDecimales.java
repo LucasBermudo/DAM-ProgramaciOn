@@ -1,9 +1,12 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo introducir números decimales por consola
- * y mostrar un mensaje con una operación con dichos números*/
+/**
+ * Introducir números decimales por consola y mostrar un mensaje con una operación con dichos números.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class LecturaDeNúmerosDecimales{
-  public static void main(String args[]){
-
+	public static void main(String args[]){
+	
 		String línea;
 		
 		System.out.print("Por favor, introduce un número: ");
@@ -23,5 +26,5 @@ public class LecturaDeNúmerosDecimales{
 		System.out.println(" y el 2º número es " + segundoNúmero);
 		System.out.print("El doble del 1º número más el 2º es ");
 		System.out.print(total);
- }
+	}
 }
