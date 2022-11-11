@@ -1,5 +1,5 @@
 /**
- *  Introducir números enteros por consola y mostrar un mensaje con una operación con dichos números.
+ * Introducir números enteros por consola y mostrar un mensaje con una operación con dichos números.
  * 
  * @autor Lucas Bermudo Junco
  */
