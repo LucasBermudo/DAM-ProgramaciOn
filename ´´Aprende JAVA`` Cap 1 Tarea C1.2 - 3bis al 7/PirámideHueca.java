@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar una pirámide de asteriscos hueca por dentro, cuya base tiene 9 asteriscos*/
+/**
+ * Mostrar una pirámide de asteriscos hueca por dentro, cuya base tiene 9 asteriscos.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class PirámideHueca{
   public static void main(String args[]){
