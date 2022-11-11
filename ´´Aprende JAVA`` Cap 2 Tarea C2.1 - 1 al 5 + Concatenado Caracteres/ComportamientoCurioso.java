@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo observar la correspondencia entre los tipos ´´char`` e ``int``.*/
+/**
+ * Observar la correspondencia entre los tipos ´´char`` e ``int``.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class ComportamientoCurioso{
   public static void main(String args[]){
