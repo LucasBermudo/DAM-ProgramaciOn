@@ -5,8 +5,8 @@
  */
 
 public class ConversorPesetasEuros{
-  public static void main(String args[]){
-
+	public static void main(String args[]){
+	
 		double cantPesetas=1255881.52;
 		double cambioPesetasEuros=1/166.386;
 		double cantEuros=cantPesetas*cambioPesetasEuros;
@@ -14,5 +14,5 @@ public class ConversorPesetasEuros{
 		System.out.printf("El cambio de %.2f", cantPesetas);
 		System.out.printf(" pesetas a euros es: %.2f", cantEuros);
 		System.out.println(" euros");
-  }
+	}
 }
