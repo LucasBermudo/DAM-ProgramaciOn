@@ -1,5 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo asignarle a una cadena de caracteres como valor
- * la concatenación de 5 variables de tipo char que hayamos delarado anteriormente*/
+/**
+ * Asignarle a una cadena de caracteres, como valor, la concatenación de variables de tipo char que hayamos delarado anteriormente.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class CadenaCaracteres{
 	public static void main(String args[]){
