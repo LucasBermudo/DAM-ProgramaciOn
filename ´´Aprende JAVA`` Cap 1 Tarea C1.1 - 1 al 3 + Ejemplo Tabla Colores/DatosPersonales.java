@@ -1,5 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo, además de mostrar el nombre del programador,
- * mostrar su dirección y su teléfono mostrando los datos en líneas separadas.*/
+/**
+ * Mostrar el nombre del programador, su dirección y su teléfono, mostrando los datos en líneas separadas.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
  
  public class DatosPersonales{
   public static void main(String args[]){
