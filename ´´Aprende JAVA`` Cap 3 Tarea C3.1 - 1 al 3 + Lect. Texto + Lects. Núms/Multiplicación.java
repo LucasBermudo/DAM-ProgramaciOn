@@ -5,8 +5,8 @@
  */
 
 public class Multiplicación{
-  public static void main(String args[]){
-		
+	public static void main(String args[]){
+	
 		String línea;
 		
 		System.out.print("Por favor, introduce el primer número: ");
@@ -22,6 +22,6 @@ public class Multiplicación{
 		int resultado = primerNúmero * segundoNúmero;
 		
 		System.out.println("El resultado de la multiplicación de " + primerNúmero + " y " + segundoNúmero + " es = " + resultado);
-				
- }
+		
+	}
 }
