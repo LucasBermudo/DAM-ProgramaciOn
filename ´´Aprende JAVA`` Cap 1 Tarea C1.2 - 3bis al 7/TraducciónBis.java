@@ -1,5 +1,9 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar por pantalla 10 palabras en inglés junto a su
-correspondiente traducción al castellano. Las palabras deben estar distribuidas en dos columnas y alineadas a la izquierda.*/
+/**
+ * Mostrar por pantalla 10 palabras en inglés junto a su correspondiente traducción al castellano.
+ * Las palabras deben estar distribuidas en dos columnas y alineadas a la izquierda.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class TraducciónBis{
   public static void main(String args[]){
