@@ -5,8 +5,8 @@
  */
 
 public class ÁreaRectángulo{
-  public static void main(String args[]){
-
+	public static void main(String args[]){
+	
 		String línea;
 		
 		System.out.print("Por favor, introduce la base del rectángulo: ");
@@ -20,5 +20,5 @@ public class ÁreaRectángulo{
 		altura = Double.parseDouble(línea);
 		
 		System.out.println("El área de un rectángulo de base " + base + " y de altura " + altura + " unidades es " + (base*altura) + " unidades^2");
-  }
+	}
 }
