@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar una pirámide rellena a base de asteriscos, cuya base tiene 9 asteriscos*/
+/**
+ * Mostrar una pirámide rellena a base de asteriscos, cuya base tiene 9 asteriscos.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class PirámideRellena{
   public static void main(String args[]){
