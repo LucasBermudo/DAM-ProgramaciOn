@@ -1,8 +1,12 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo pedir dos números para luego mostrar el resultado de su multiplicación.*/
+/**
+ * Pedir dos números para luego mostrar el resultado de su multiplicación.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class Multiplicación{
-  public static void main(String args[]){
-		
+	public static void main(String args[]){
+	
 		String línea;
 		
 		System.out.print("Por favor, introduce el primer número: ");
@@ -18,6 +22,6 @@ public class Multiplicación{
 		int resultado = primerNúmero * segundoNúmero;
 		
 		System.out.println("El resultado de la multiplicación de " + primerNúmero + " y " + segundoNúmero + " es = " + resultado);
-				
- }
+		
+	}
 }
