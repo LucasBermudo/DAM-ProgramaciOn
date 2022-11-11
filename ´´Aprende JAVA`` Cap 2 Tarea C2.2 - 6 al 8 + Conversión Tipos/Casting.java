@@ -1,5 +1,5 @@
 /**
- * Probar qué resultado se consigue con cada una de las diferentes combinaciones de casting de las variables.
+ * Probar qué resultado se consigue con cada una de las diferentes combinaciones de casting de las variables
  * 
  * @autor Lucas Bermudo Junco
  */
