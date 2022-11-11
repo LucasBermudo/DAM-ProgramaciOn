@@ -5,10 +5,10 @@
  */
 
 public class NombreCompleto{
-  public static void main(String args[]){
-    
+	public static void main(String args[]){
+	
 		String nombreCompleto="Lucas Bermudo Junco";
 		
 		System.out.println("El nombre completo del diseñador de este programa es: " + nombreCompleto);
-  }
+	}
 }
