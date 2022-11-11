@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo pintar por pantalla, con diversos colores, algún objeto.*/
+/**
+ * Pintar por pantalla, con diversos colores, algún objeto.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class ObjetoConColores{
   public static void main(String args[]){
