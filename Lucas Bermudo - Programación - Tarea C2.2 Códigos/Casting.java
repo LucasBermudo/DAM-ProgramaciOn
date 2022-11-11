@@ -1,5 +1,5 @@
 /**
- * Mostrar por pantalla en la misma línea y con una misma sentencia de Java todos las variables de tipo char y de tipo String que hayamos declarado.
+ * Probar qué resultado se consigue con cada una de las diferentes combinaciones de casting de las variables.
  * 
  * @autor Lucas Bermudo Junco
  */
