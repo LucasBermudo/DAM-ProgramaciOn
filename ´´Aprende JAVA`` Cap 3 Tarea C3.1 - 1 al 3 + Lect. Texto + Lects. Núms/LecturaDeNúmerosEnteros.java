@@ -5,8 +5,8 @@
  */
 
 public class LecturaDeNúmerosEnteros{
-  public static void main(String args[]){
-
+	public static void main(String args[]){
+	
 		String línea;
 		
 		System.out.print("Por favor, introduce un número: ");
@@ -26,5 +26,5 @@ public class LecturaDeNúmerosEnteros{
 		System.out.println(" y el 2º número es " + segundoNúmero);
 		System.out.print("El doble del 1º número más el 2º es ");
 		System.out.print(total);
- }
+	}
 }
