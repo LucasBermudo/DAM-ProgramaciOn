@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar su horario de clase*/
+/**
+ * Mostrar el horario de clase.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class HorarioSinColores{
   public static void main(String args[]){
