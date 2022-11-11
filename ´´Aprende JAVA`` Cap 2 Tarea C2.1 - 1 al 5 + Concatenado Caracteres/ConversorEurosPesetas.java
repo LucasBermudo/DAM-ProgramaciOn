@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo convertir euros a pesetas.*/
+/**
+ * Convertir euros a pesetas.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class ConversorEurosPesetas{
   public static void main(String args[]){
