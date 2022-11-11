@@ -1,5 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar por pantalla
- * el valor de cada variable, la suma, la resta, la división y la multiplicación..*/
+/**
+ * Mostrar por pantalla el valor de cada variable, la suma, la resta, la división y la multiplicación.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class OperacionesConVariables{
   public static void main(String args[]){
