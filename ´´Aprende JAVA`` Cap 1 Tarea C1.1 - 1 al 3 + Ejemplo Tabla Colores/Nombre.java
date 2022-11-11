@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar el nombre del programador por pantalla*/
+/**
+ * Mostrar el nombre del programador por pantalla.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class Nombre{
   public static void main(String args[]){
