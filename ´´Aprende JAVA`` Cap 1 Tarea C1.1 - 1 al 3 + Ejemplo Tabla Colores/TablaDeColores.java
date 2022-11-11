@@ -1,4 +1,8 @@
-/*Programa diseñado por Lucas Bermudo que tiene como objetivo mostrar una tabla de colores con sus respectivos códigos*/
+/**
+ * Mostrar una tabla de colores con sus respectivos códigos.
+ * 
+ * @autor Lucas Bermudo Junco
+ */
 
 public class TablaDeColores{
   public static void main(String args[]){
