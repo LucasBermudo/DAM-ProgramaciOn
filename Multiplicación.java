@@ -9,12 +9,12 @@ public class Multiplicación{
 	
 		String línea;
 		
-		System.out.print("Por favor, introduce el primer número: ");
+		System.out.print("Por favor, introduce el primer número entero: ");
 		línea = System.console().readLine();
 		int primerNúmero;
 		primerNúmero = Integer.parseInt(línea);
 		
-		System.out.print("Por favor, introduce el segundo número: ");
+		System.out.print("Por favor, introduce el segundo número entero: ");
 		línea = System.console().readLine();
 		int segundoNúmero;
 		segundoNúmero = Integer.parseInt(línea);
