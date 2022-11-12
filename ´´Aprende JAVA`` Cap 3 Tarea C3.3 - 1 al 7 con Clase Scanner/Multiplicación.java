@@ -11,7 +11,7 @@ public class Multiplicación{
 	
 		Scanner s = new Scanner(System.in);
 		
-		System.out.print("Por favor, introduce los 2 números que desees multiplicar separados por un espacio: ");
+		System.out.print("Por favor, introduce los 2 números enteros que desees multiplicar separados por un espacio: ");
 		int primerNúmero = s.nextInt();
 		int segundoNúmero = s.nextInt();
 		
