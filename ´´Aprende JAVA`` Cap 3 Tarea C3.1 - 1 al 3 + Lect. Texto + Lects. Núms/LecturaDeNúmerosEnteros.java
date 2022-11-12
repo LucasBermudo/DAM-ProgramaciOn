@@ -9,12 +9,12 @@ public class LecturaDeNúmerosEnteros{
 	
 		String línea;
 		
-		System.out.print("Por favor, introduce un número: ");
+		System.out.print("Por favor, introduce un número entero: ");
 		línea = System.console().readLine();		//El número introducido se almacena como String
 		int primerNúmero;
 		primerNúmero = Integer.parseInt(línea);		//Mediante este casting, convertimos el valor String a Número Entero
 		
-		System.out.print("Introduce otro número, por favor: ");
+		System.out.print("Introduce otro número entero, por favor: ");
 		línea = System.console().readLine();		//El número introducido se almacena como String
 		int segundoNúmero;
 		segundoNúmero = Integer.parseInt(línea);		//Mediante este casting, convertimos el valor String a Número Entero
