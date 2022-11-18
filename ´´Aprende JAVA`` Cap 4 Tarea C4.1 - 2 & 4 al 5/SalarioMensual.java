@@ -15,14 +15,14 @@ public class SalarioMensual{
 		
 		if(horTrab >= 0){
 			if(horTrab <= 40 ){
-			int salSem = horTrab * salHorNorm;
-			System.out.println("El salario semanal del trabajador es: " + salSem + " euros.");		
+				int salSem = horTrab * salHorNorm;
+				System.out.println("El salario semanal del trabajador es: " + salSem + " euros.");		
 			} else {
-			int salSem = (40 * salHorNorm) + ((horTrab-40) * salHorExtr);
-			System.out.println("El salario semanal del trabajador es: " + salSem + " euros.");
+				int salSem = (40 * salHorNorm) + ((horTrab-40) * salHorExtr);
+				System.out.println("El salario semanal del trabajador es: " + salSem + " euros.");
 			}
 		} else {
-		System.out.println("Lo sentimos, pero el número de horas trabajadas no puede ser un número negativo.");
+			System.out.println("Lo sentimos, pero el número de horas trabajadas no puede ser un número negativo.");
 		}
 	}
 }
