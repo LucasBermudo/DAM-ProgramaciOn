@@ -18,9 +18,9 @@ public class EcuaciónPrimerGrado{
 		double x = -b/a;
 		
 		if(a != 0){
-		System.out.println("El valor de la incógnita ´´x``, con todos sus decimales, es: " + x);		
+			System.out.println("El valor de la incógnita ´´x``, con todos sus decimales, es: " + x);		
 		} else{
-		System.out.println("Esa ecuación no tiene solución real.");		
+			System.out.println("Esa ecuación no tiene solución real.");		
 		}
 	}
 }
