@@ -25,10 +25,10 @@ public class Palotes{
 		
 		System.out.print("\nEl " + num + " en decimal es el ");
 		
-		while(num>0){																// Invertimos el número para poder luego invertirlo de nuevo y extraer uno por uno las cifras en el orden original
-			resto = num%10;													// Extraemos la última cifra
-			numInv = numInv*10+resto;					// Desplazamos las cifras anteriores a la izquierda y extraemos la siguiente cifra, añadiéndola a la derecha
-			num/=10;																			// Eliminamos la útlima cifra usada para poder acceder a la siguiente
+		while(num>0){								// Invertimos el número para poder luego invertirlo de nuevo y extraer uno por uno las cifras en el orden original
+			resto = num%10;							// Extraemos la última cifra
+			numInv = numInv*10+resto;					// Desplazamos las cifras anteriores a la izquierda y añadimos la siguiente cifra a la derecha
+			num/=10;							// Eliminamos la útlima cifra usada para poder acceder a la siguiente después
 		}
 		
 		while(numInv>0){					// Volvemos a invertir el número para extraer uno por uno las cifras en el orden original
