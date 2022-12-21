@@ -27,12 +27,12 @@ public class DígitosPares{
 		
 		System.out.print("\nLos dígitos pares del número " + numOrig + " son: ");
 		
-		while(numMani>0){												// Invertimos el número para poder luego invertirlo de nuevo y extraer uno por uno las cifras en el orden original
+		while(numMani>0){							// Invertimos el número para poder luego invertirlo de nuevo y extraer uno por uno las cifras en el orden original
 			resto1 = (int)numMani%10;					// Extraemos la última cifra
-			numMani/=10;																// Eliminamos la útlima cifra usada para poder acceder a la siguiente
+			numMani/=10;							// Eliminamos la útlima cifra usada para poder acceder a la siguiente después
 			
 			if(resto1%2==0 && resto1!=0){						// Escogemos las cifras pares
-				numInv1 = numInv1*10+resto1;					// Desplazamos las cifras anteriores a la izquierda y extraemos la siguiente cifra, añadiéndola a la derecha
+				numInv1 = numInv1*10+resto1;					// Desplazamos las cifras anteriores a la izquierda y añadimos la siguiente cifra, a la derecha
 				suma+=resto1;
 			}
 		}
