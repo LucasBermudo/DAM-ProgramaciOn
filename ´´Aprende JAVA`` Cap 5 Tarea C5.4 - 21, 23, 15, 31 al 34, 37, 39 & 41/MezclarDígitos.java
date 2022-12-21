@@ -35,10 +35,10 @@ public class MezclarDígitos{
 		
 		while(num1>0){
 			resto = (int)num1%10;					// Extraemos la última cifra
-			num1/=10;														// Eliminamos la útlima cifra usada para poder acceder a la siguiente
+			num1/=10;						// Eliminamos la útlima cifra usada para poder acceder a la siguiente después
 			
-			if(resto%2==0 && resto!=0){												// Separamos las cifras pares de las cifras impares
-				numInv1Par = numInv1Par*10+resto;					// Desplazamos las cifras anteriores a la izquierda y extraemos la siguiente cifra, añadiéndola a la derecha
+			if(resto%2==0 && resto!=0){							// Separamos las cifras pares de las cifras impares
+				numInv1Par = numInv1Par*10+resto;					// Desplazamos las cifras anteriores a la izquierda y añadimos la siguiente cifra a la derecha
 			} else if(resto!=0){
 				numInv1Impar = numInv1Impar*10+resto;
 			}
