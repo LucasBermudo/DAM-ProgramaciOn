@@ -27,11 +27,11 @@ public class PintarLetraL{
 		System.out.println("La base es la mitad de la altura más 1, en este caso " + base + "\n");
 		
 		for(int i=1; i<=altura; i++){					// Dibujamos la letra
-			if(i<altura){																// Dibujamos el palo vertical de la letra
+			if(i<altura){						// Dibujamos el palo vertical de la letra
 				System.out.println(car);
 			}
 			
-			if(i==altura){																	// Dibujamos el palo horizontal de la letra
+			if(i==altura){								// Dibujamos el palo horizontal de la letra
 				for(int j=1; j<=base; j++){					// Establecemos la longitud del palo horizontal
 					System.out.print(car);
 				}
