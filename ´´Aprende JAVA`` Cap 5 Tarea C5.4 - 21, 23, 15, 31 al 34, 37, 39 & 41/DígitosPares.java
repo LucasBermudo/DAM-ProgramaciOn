@@ -32,7 +32,7 @@ public class DígitosPares{
 			numMani/=10;							// Eliminamos la útlima cifra usada para poder acceder a la siguiente después
 			
 			if(resto1%2==0 && resto1!=0){						// Escogemos las cifras pares
-				numInv1 = numInv1*10+resto1;					// Desplazamos las cifras anteriores a la izquierda y añadimos la siguiente cifra, a la derecha
+				numInv1 = numInv1*10+resto1;					// Desplazamos las cifras anteriores a la izquierda y añadimos la siguiente cifra a la derecha
 				suma+=resto1;
 			}
 		}
