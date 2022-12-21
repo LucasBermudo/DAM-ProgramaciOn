@@ -31,23 +31,25 @@ public class MezclarDígitos{
 			num2 = sc.nextLong();
 		}
 		
+		// Invertimos los números para poder extraer uno por uno las cifras que nos interesen
+		
 		while(num1>0){
-			resto = (int)num1%10;
-			num1/=10;
+			resto = (int)num1%10;					// Extraemos la última cifra
+			num1/=10;														// Eliminamos la útlima cifra usada para poder acceder a la siguiente
 			
-			if(resto%2==0 && resto!=0){
-				numInv1Par = numInv1Par*10+resto;
+			if(resto%2==0 && resto!=0){												// Separamos las cifras pares de las cifras impares
+				numInv1Par = numInv1Par*10+resto;					// Desplazamos las cifras anteriores a la izquierda y extraemos la siguiente cifra, añadiéndola a la derecha
 			} else if(resto!=0){
 				numInv1Impar = numInv1Impar*10+resto;
 			}
 		}
 		
-		while(num2>0){					// Invertimos los números para poder extraer uno por uno las cifras que nos interesen
+		while(num2>0){
 			resto = (int)num2%10;
 			num2/=10;
 			
-			if(resto%2==0 && resto!=0){												// Separamos las cifras pares de las cifras impares
-				numInv2Par = numInv2Par*10+resto;					// Desplazamos las cifras anteriores a la izquierda y extraemos la siguiente cifra, añadiéndola a la derecha
+			if(resto%2==0 && resto!=0){
+				numInv2Par = numInv2Par*10+resto;
 			} else if(resto!=0){
 				numInv2Impar = numInv2Impar*10+resto;
 			}
