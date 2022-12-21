@@ -21,11 +21,11 @@ public class ListaNúmeros{
 			System.out.print(i + "º número: ");
 			num = sc.nextInt();
 			
-			if(num%2==0){								// Escogemos los números pares
+			if(num%2==0){							// Separamos los números pares de los impares
 				if(num>mayorPar){					// Comparamos cada número nuevo con el mayor hasta el momento
 					mayorPar = num;
 				}
-			} else if(num%2==1){					//Escogemos los números impares
+			} else if(num%2==1){
 				sumaImpar+=num;
 				cantImpar++;
 			}
