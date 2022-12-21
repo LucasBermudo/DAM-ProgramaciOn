@@ -28,7 +28,7 @@ public class PintarLetraU{
 		System.out.println();
 		
 		for(i=1; i<=altura; i++){					// Dibujamos la letra
-			if(i!=altura){													// Dibujamos la letra de arriba a abajo hasta llegar a la base
+			if(i!=altura){						// Dibujamos la letra de arriba a abajo hasta llegar a la base
 				for(j=1; j<=base; j++){
 					if(j==1 || j==base){					// Dibujamos la primera y la útlima posición de la fila, dejando vacío el centro
 						System.out.print(car);
@@ -38,9 +38,9 @@ public class PintarLetraU{
 						System.out.print(" ");
 					}
 				}
-			} else{																// Dibujamos la base de la letra
+			} else{					// Dibujamos la base de la letra
 				for(j=1; j<=base; j++){
-					if(j==1){													// Dibujamos el centro de la fila, dejando vacías la primera y la última posición de la fila
+					if(j==1){					// Dibujamos el centro de la fila, dejando vacías la primera y la última posición de la fila
 						System.out.print(" ");
 					} else if(j==base){
 						System.out.println(" ");
