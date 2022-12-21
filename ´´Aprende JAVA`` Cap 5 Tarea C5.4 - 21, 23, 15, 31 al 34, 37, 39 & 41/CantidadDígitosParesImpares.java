@@ -22,11 +22,11 @@ public class CantidadDígitosParesImpares{
 			numMani = sc.nextLong();
 		}
 		
-		numOrig = numMani;
+		numOrig = numMani;					// Copiamos el número para no perderlo y así poderlo usar luego
 		
 		while(numMani>0){
 			resto = numMani%10;					// Extraemos la última cifra
-			numMani/=10;										// Eliminamos la útlima cifra usada para poder acceder a la siguiente
+			numMani/=10;						// Eliminamos la última cifra usada para poder acceder a la siguiente después
 			
 			if(resto%2==0 && resto!=0){					// Separamos las cifras pares de las cifras impares
 				cantPar++;
