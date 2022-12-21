@@ -24,8 +24,8 @@ public class Factorial{
 		
 		System.out.println();
 		
-		for(i=1; i<=num; i++){					// Calculamos el factorial de todos los números desde el 1 hasta el número elegido
-			for(j=1; j<=i; j++){							// Calculamos el factorial de cada número en particular
+		for(i=1; i<=num; i++){						// Calculamos el factorial de todos los números desde el 1 hasta el número elegido
+			for(j=1; j<=i; j++){					// Calculamos el factorial de cada número en particular
 				fact*=j;
 			}
 			
