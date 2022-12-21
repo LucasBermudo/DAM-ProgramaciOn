@@ -26,7 +26,7 @@ public class SumaNúmeros{
 		}
 		
 		suma-=num;					// Extraemos de la suma el número que ha provocado que la suma supere 10000
-		cantiNum--;						// Extraemos del contador el número que ha provocado que la suma supere 10000
+		cantiNum--;					// Extraemos del contador el número que ha provocado que la suma supere 10000
 		media = suma/(int)cantiNum;
 		
 		System.out.printf("\nEl total acumulado es %.2f", suma);
