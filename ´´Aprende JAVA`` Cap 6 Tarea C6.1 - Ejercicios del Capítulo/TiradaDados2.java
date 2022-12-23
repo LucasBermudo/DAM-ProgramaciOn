@@ -5,7 +5,7 @@
  * @autor Lucas Bermudo Junco
  */
 
-public class TiradaDados{
+public class TiradaDados2{
 	public static void main(String args[]){
 	
 		int dado1, dado2;
