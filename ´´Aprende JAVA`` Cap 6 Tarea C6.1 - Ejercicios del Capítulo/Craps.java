@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Realiza el juego del “Craps”.
+ * Realizar el juego del “Craps”.
  * 
  * @autor Lucas Bermudo Junco
  */
@@ -34,7 +34,7 @@ public class Craps{
 		
 		System.out.println("\nHas apostado " + apuesta + " Euros.\n");
 		
-		dado1 = (int)(Math.random()*6+1);						// Generamos para los dados 2 números aleatorios entre el 1 y el 6 (ambos incluidos).
+		dado1 = (int)(Math.random()*6+1);					// Generamos para los dados 2 números aleatorios entre el 1 y el 6 (ambos incluidos).
 		dado2 = (int)(Math.random()*6+1);
 		
 		sumaDados1 = dado1+dado2;
