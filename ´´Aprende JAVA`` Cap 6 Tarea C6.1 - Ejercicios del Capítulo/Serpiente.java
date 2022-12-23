@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Realiza un programa que genere una secuencia de cinco monedas de curso legal lanzadas al aire.
+ * Realizar un programa que genere una secuencia de cinco monedas de curso legal lanzadas al aire.
  * 
  * @autor Lucas Bermudo Junco
  */
