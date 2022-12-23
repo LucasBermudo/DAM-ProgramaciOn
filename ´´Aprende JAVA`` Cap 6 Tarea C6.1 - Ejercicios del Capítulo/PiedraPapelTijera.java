@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Implementa el juego piedra, papel y tijera.
+ * Implementar el juego piedra, papel y tijera.
  * 
  * @autor Lucas Bermudo Junco
  */
