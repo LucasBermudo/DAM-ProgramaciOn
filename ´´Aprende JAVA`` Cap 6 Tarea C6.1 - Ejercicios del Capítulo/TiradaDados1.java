@@ -4,7 +4,7 @@
  * @autor Lucas Bermudo Junco
  */
 
-public class TiradaDados{
+public class TiradaDados1{
 	public static void main(String args[]){
 	
 		System.out.print("Las 3 tiradas de dados son las siguientes: ");
@@ -12,7 +12,7 @@ public class TiradaDados{
 		int tiradaDados, sumaTiradas = 0;
 		
 		for(int i=1; i<=3; i++){
-			tiradaDados = (int)(Math.random()*6)+1;						// Generamos números aleatorios entre el 1 y el 6 (ambos incluidos).
+			tiradaDados = (int)(Math.random()*6)+1;					// Generamos números aleatorios entre el 1 y el 6 (ambos incluidos).
 			
 			if(i<=(3-2)){	
 				System.out.print(tiradaDados + ", ");
