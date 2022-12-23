@@ -14,7 +14,7 @@ public class Melodía{
 		
 		do{
 			cantComp = (int)(Math.random()*28)+1;					// Solo permitimos que el tamaño de la melodía sea entre 1 y 28.
-		} while(cantComp%4!=0);					// Solo permitimos que el tamaño de la melodía sea un múltiplo de 4.
+		} while(cantComp%4!=0);								// Solo permitimos que el tamaño de la melodía sea un múltiplo de 4.
 		
 		for(i=1; i<=cantComp; i++){
 			numNota = (int)(Math.random()*7)+1;					// Generamos una nota al azar.
