@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Realiza un programa que pinte un sendero aleatorio.
+ * Realizar un programa que pinte un sendero aleatorio.
  * 
  * @autor Lucas Bermudo Junco
  */
