@@ -22,7 +22,7 @@ public class NúmerosAleatorios{
 				if(num>numMay){					// Comparamos el nuevo número con el mayor número par, y en caso de ser mayor, lo sustituimos.
 					numMay = num;
 				}
-			} else if(num!=0){				// Comparamos el nuevo número con el menor número impar, y en caso de ser menor, lo sustituimos.
+			} else if(num!=0){					// Comparamos el nuevo número con el menor número impar, y en caso de ser menor, lo sustituimos.
 				if(num<numMen){
 					numMen = num;
 				}
