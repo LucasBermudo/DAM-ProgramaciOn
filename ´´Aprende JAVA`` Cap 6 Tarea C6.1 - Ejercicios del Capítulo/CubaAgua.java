@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Realiza un programa que pinte por pantalla una cuba con cierta cantidad de agua.
+ * Realizar un programa que pinte por pantalla una cuba con cierta cantidad de agua.
  * 
  * @autor Lucas Bermudo Junco
  */
@@ -35,7 +35,7 @@ public class CubaAgua{
 						System.out.print(paredVert);
 					} else if(j==ancho){
 						System.out.println(paredVert);
-					} else{					// Dibujamos el interior de la cuba.
+					} else{									// Dibujamos el interior de la cuba.
 						if(i<(altura-cantAgua)){					// Dibujamos el espacio vacío del interior de la cuba.
 							System.out.print(espacio);
 						} else{					// Dibujamos el agua del interior de la cuba.
